@@ -23,8 +23,6 @@ _返回值_
 
 * LoadSubpackageTask: 加载分包任务实例，用于获取分包加载状态
 
-
-
 ## 加载分包任务实例
 
 ```javascript

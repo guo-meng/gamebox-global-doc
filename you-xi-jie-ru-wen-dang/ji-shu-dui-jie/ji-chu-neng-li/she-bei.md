@@ -96,7 +96,7 @@ _参数_
 
 **支持版本: \(core 版本 &gt;= 1.1.0\)** `getBatteryInfo()`的同步版本，获取设备电量。
 
-#### 剪贴板
+### 剪贴板
 
 ```javascript
     getClipboardData(Object object)

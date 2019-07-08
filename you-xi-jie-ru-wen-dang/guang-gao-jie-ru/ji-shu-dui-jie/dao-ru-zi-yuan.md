@@ -17,5 +17,3 @@ description: 下载对应种类SDK压缩包，解压文件，获取AdSDK.js文�
 
    `<script type = "text/javascript" src="./AdSDK.js" ></script>`
 
-
-

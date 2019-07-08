@@ -80,8 +80,6 @@ _参数_
 
 ### 监听小游戏隐藏到后台事件。锁屏、按 HOME 键退到桌面等操作会触发此事件。
 
-
-
 ```javascript
     onHide(function callback)
 ```
@@ -129,8 +127,6 @@ _参数_
 取消监听事件的回调函数
 
 ## 系统事件
-
-
 
 ```javascript
     onAudioInterruptionEnd(function callback)
@@ -216,8 +212,6 @@ _参数_
 取消监听事件的回调函数
 
 ## 性能
-
-
 
 ```javascript
     getPerformance()

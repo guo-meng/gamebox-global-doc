@@ -18,54 +18,37 @@ AdSDK.init();
 
 函数：
 
-`var banner=AdSDK. createBannerAd(adId,bannerAdId,position)` 
+`var banner=AdSDK. createBannerAd(adId,bannerAdId,position)`
 
 参数说明：
+
+| **参数** | **含义** | **类型** | **是否为空** | **备注** |
+| :--- | :--- | :--- | :--- | :--- |
+
+
+| adId | 广告序号ID | String | 非空 | 标识广告 |
+| :--- | :--- | :--- | :--- | :--- |
+
+
+| bannerId | 广告位ID | String | 非空 | 广告位ID，需申请 |
+| :--- | :--- | :--- | :--- | :--- |
+
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>&#x53C2;&#x6570;</b>
-      </th>
-      <th style="text-align:left"><b>&#x542B;&#x4E49;</b>
-      </th>
-      <th style="text-align:left"><b>&#x7C7B;&#x578B;</b>
-      </th>
-      <th style="text-align:left"><b>&#x662F;&#x5426;&#x4E3A;&#x7A7A;</b>
-      </th>
-      <th style="text-align:left"><b>&#x5907;&#x6CE8;</b>
+      <th style="text-align:left">position</th>
+      <th style="text-align:left">&#x5E7F;&#x544A;&#x4F4D;&#x7F6E;</th>
+      <th style="text-align:left">Int</th>
+      <th style="text-align:left">&#x975E;&#x7A7A;</th>
+      <th style="text-align:left">
+        <p>1&#x3001;&#x9876;&#x90E8;&#xFF1B;2&#x3001;&#x5E95;&#x90E8;&#xFF1B;3&#x3001;&#x4E2D;</p>
+        <p>&#x95F4;</p>
       </th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">adId</td>
-      <td style="text-align:left">&#x5E7F;&#x544A;&#x5E8F;&#x53F7;ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x975E;&#x7A7A;</td>
-      <td style="text-align:left">&#x6807;&#x8BC6;&#x5E7F;&#x544A;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">bannerId</td>
-      <td style="text-align:left">&#x5E7F;&#x544A;&#x4F4D;ID</td>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">&#x975E;&#x7A7A;</td>
-      <td style="text-align:left">&#x5E7F;&#x544A;&#x4F4D;ID&#xFF0C;&#x9700;&#x7533;&#x8BF7;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">position</td>
-      <td style="text-align:left">&#x5E7F;&#x544A;&#x4F4D;&#x7F6E;</td>
-      <td style="text-align:left">Int</td>
-      <td style="text-align:left">&#x975E;&#x7A7A;</td>
-      <td style="text-align:left">
-        <p>1&#x3001;&#x9876;&#x90E8;&#xFF1B;2&#x3001;&#x5E95;&#x90E8;&#xFF1B;3&#x3001;&#x4E2D;</p>
-        <p>&#x95F4;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>### 3、展示横幅广告
-
-横幅广告组件默认是隐藏的，调用广告实例的show函数展示横幅广告，返回值为Promise,banner广告显示操作的结果
+  <tbody></tbody>
+</table>横幅广告组件默认是隐藏的，调用广告实例的show函数展示横幅广告，返回值为Promise,banner广告显示操作的结果
 
 _**建议在监听到横幅广告加载成功的回调函数中调用该函数。**_
 
@@ -113,7 +96,7 @@ _**建议在监听到横幅广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`banner.onLoad (func);` 
+`banner.onLoad (func);`
 
 参数说明：
 
@@ -183,7 +166,7 @@ _**建议在监听到横幅广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`banner.offResize  (func);`
+`banner.offResize (func);`
 
 参数说明：
 
@@ -299,7 +282,7 @@ _**建议在监听到插屏广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`interstitialAd.offLoad (func);`  
+`interstitialAd.offLoad (func);`
 
 参数说明：
 
@@ -327,7 +310,7 @@ _**建议在监听到插屏广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`interstitialAd.offResize  (func);`
+`interstitialAd.offResize (func);`
 
 参数说明：
 

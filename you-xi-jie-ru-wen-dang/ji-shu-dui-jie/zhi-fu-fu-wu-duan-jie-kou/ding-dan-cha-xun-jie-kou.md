@@ -6,7 +6,7 @@
 
 ## 访问地址
 
-http://IP:PORT/jeekegame/api/gameQueryOrder
+[http://IP:PORT/jeekegame/api/gameQueryOrder](http://IP:PORT/jeekegame/api/gameQueryOrder)
 
 ## 请求参数
 
