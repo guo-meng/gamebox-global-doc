@@ -6,7 +6,7 @@
 
 函数：
 
-```text
+```javascript
 AdSDK.init();
 ```
 
@@ -18,7 +18,9 @@ AdSDK.init();
 
 函数：
 
-`var banner=AdSDK.createBannerAd(adId,bannerAdId,position)`
+```text
+var banner=AdSDK.createBannerAd(adId,bannerAdId,position);
+```
 
 参数说明：
 
@@ -56,7 +58,18 @@ _**建议在监听到横幅广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`banner.show().then(function(){console.log('banner 广告显示成功')}, function(err) { console.log('banner 广告显示失败') })`
+```text
+banner.show().then(
+             function(){
+                console.log('banner 广告显示成功')
+                       }, 
+             function(err){
+                console.log('banner 广告显示失败') 
+                       }
+                )
+```
+
+
 
 方法说明：
 
@@ -71,7 +84,9 @@ _**建议在监听到横幅广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`banner.hide ()`
+```text
+banner.hide ();
+```
 
 参数说明：
 
@@ -85,7 +100,9 @@ _**建议在监听到横幅广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`banner.destroy ()`
+```text
+banner.destroy ();
+```
 
 参数说明：
 
@@ -99,7 +116,9 @@ _**建议在监听到横幅广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`banner.onLoad (func(param));`
+```text
+banner.onLoad (func(param));
+```
 
 方法说明：
 
@@ -126,7 +145,9 @@ adId,  // string 加载banner成功的广告Id
 
 函数：
 
-`banner.onError (func(param));`
+```text
+banner.onError (func(param));
+```
 
 方法说明：
 
@@ -163,7 +184,9 @@ errorCode列表
 
 函数：
 
-`banner.offLoad (func);`
+```text
+banner.offLoad (func);
+```
 
 参数说明：
 
@@ -177,7 +200,9 @@ errorCode列表
 
 函数：
 
-`banner.offError (func);`
+```text
+banner.offError (func);
+```
 
 参数说明：
 
@@ -191,7 +216,9 @@ errorCode列表
 
 函数：
 
-`var interstitialAd = AdSDK.createInterstitialAd(adId，interstitialAdId, style)`
+```text
+var interstitialAd = AdSDK.createInterstitialAd(adId，interstitialAdId, style)
+```
 
 参数说明：
 
@@ -209,7 +236,16 @@ _**建议在监听到插屏广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`interstitialAd.show().then(function(){console.log('interstitialAd 广告显示成功')}, function(err) { console.log('interstitialAd 广告显示失败') })`
+```text
+interstitialAd.show().then(
+                function(){
+                console.log('interstitialAd 广告显示成功')
+                },
+                 function(err){
+                  console.log('interstitialAd 广告显示失败') 
+                  }
+                   )
+```
 
 参数说明：
 
@@ -224,7 +260,9 @@ _**建议在监听到插屏广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`interstitialAd.hide ()；`
+```text
+interstitialAd.hide ()；
+```
 
 参数说明：
 
@@ -238,7 +276,9 @@ _**建议在监听到插屏广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`interstitialAd.destroy ()；`
+```text
+interstitialAd.destroy ()；
+```
 
 参数说明：
 
@@ -252,7 +292,9 @@ _**建议在监听到插屏广告加载成功的回调函数中调用该函数�
 
 函数：
 
-`interstitialAd.onLoad (func(param));`
+```text
+interstitialAd.onLoad (func(param));
+```
 
 方法说明：
 
@@ -279,7 +321,9 @@ adId,  // string 加载插屏成功的广告Id
 
 函数：
 
-`interstitialAd.onError (func(param));`
+```text
+interstitialAd.onError (func(param));
+```
 
 方法说明：
 
@@ -316,7 +360,9 @@ errorCode列表
 
 函数：
 
-`interstitialAd.offLoad (func);`
+```text
+interstitialAd.offLoad (func);
+```
 
 参数说明：
 
@@ -330,7 +376,9 @@ errorCode列表
 
 函数：
 
-`interstitialAd.offError (func);`
+```text
+interstitialAd.offError (func);
+```
 
 参数说明：
 
@@ -344,7 +392,9 @@ errorCode列表
 
 函数：
 
-`var videoAd=AdSDK.createRewardedVideoAd (adId，videoAdId, screenOrientation)`
+```text
+var videoAd=AdSDK.createRewardedVideoAd (adId，videoAdId, screenOrientation)
+```
 
 参数说明：
 
@@ -364,7 +414,16 @@ _**展示成功后建议销毁广告对象，从新创建新的广告对象。**
 
 函数：
 
-`videoAd.show().then(function(){console.log('videoAd 广告显示成功')}, function(err) { console.log('videoAd 广告显示失败') })`
+```text
+videoAd.show().then(
+                function(){
+                console.log('videoAd 广告显示成功')
+                },
+                 function(err){
+                  console.log('videoAd 广告显示失败') 
+                  }
+                  )
+```
 
 方法说明：
 
@@ -379,7 +438,9 @@ _**展示成功后建议销毁广告对象，从新创建新的广告对象。**
 
 函数：
 
-`videoAd.hide()；`
+```text
+videoAd.hide()；
+```
 
 参数说明：
 
@@ -409,7 +470,9 @@ videoAd.destroy ()；
 
 函数：
 
-`videoAd.onLoad (func(param));`
+```text
+videoAd.onLoad (func(param));
+```
 
 方法说明：
 
@@ -436,7 +499,9 @@ adId,  // string 加载banner成功的广告Id
 
 函数：
 
-`videoAd.onError (func(param));`
+```text
+videoAd.onError (func(param));
+```
 
 方法说明：
 
@@ -473,7 +538,9 @@ errorCode列表
 
 函数：
 
-`videoAd.onClose (func)`
+```text
+videoAd.onClose (func);
+```
 
 参数说明：
 
@@ -487,7 +554,9 @@ errorCode列表
 
 函数：
 
-`videoAd.offLoad (func);`
+```text
+videoAd.offLoad (func);
+```
 
 参数说明：
 
@@ -501,7 +570,9 @@ errorCode列表
 
 函数：
 
-`videoAd.offError(func);`
+```text
+videoAd.offError(func);
+```
 
 参数说明：
 
@@ -515,7 +586,9 @@ errorCode列表
 
 函数：
 
-`videoAd.offClose (func);`
+```text
+videoAd.offClose (func);
+```
 
 参数说明：
 
