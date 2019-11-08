@@ -6,8 +6,6 @@
 
 ![](../../../.gitbook/assets/0705-hai-wai-xiao-you-xi-shou-ye-gui-fan-2.jpg)
 
-![](https://github.com/guo-meng/gamebox-global-doc/tree/1d64fde0089a5a5c69bfbb96788c7d7c66ce64ef/.gitbook/assets/3.jpg)
-
 ## ICON规范
 
 * icon输出尺寸为**512\*512**，半径为**94px**，输出文件不得超过**120kb**
