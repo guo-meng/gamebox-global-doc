@@ -15,5 +15,9 @@ description: 下载对应种类SDK压缩包，解压文件，获取AdSDK.js文�
 
    如：假如游戏客户端的启动文件为index.html，则在index.html中的开始位置加入：
 
-   `<script type = "text/javascript" src="./AdSDK.js" ></script>`
+```text
+<script type = "text/javascript" src="./AdSDK.js" ></script>
+```
+
+
 

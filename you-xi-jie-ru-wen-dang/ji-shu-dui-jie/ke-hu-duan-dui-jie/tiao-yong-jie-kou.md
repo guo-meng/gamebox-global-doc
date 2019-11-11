@@ -196,7 +196,9 @@ GameSDK.pay(orderId, goodsName, goodsDesc, orderAmount, extension, notifyURL)
 
 函数：
 
-`GameSDK.setOnPayCB( func )`
+```text
+GameSDK.setOnPayCB( func )
+```
 
 参数说明：
 
