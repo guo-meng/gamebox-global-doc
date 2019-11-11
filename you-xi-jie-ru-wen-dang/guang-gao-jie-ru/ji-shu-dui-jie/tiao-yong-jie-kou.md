@@ -85,7 +85,7 @@ banner.show().then(
 函数：
 
 ```text
-banner.hide ();
+banner.hide();
 ```
 
 ### 5、销毁横幅广告
@@ -95,7 +95,7 @@ banner.hide ();
 函数：
 
 ```text
-banner.destroy ();
+banner.destroy();
 ```
 
 ### 6、监听横幅广告加载成功事件
@@ -105,7 +105,7 @@ banner.destroy ();
 函数：
 
 ```text
-banner.onLoad (func(param));
+banner.onLoad(func(param));
 ```
 
 方法说明：
@@ -134,7 +134,7 @@ adId,  // string 加载banner成功的广告Id
 函数：
 
 ```text
-banner.onError (func(param));
+banner.onError(func(param));
 ```
 
 方法说明：
@@ -173,7 +173,7 @@ errorCode列表
 函数：
 
 ```text
-banner.offLoad (func);
+banner.offLoad(func);
 ```
 
 参数说明：
@@ -189,7 +189,7 @@ banner.offLoad (func);
 函数：
 
 ```text
-banner.offError (func);
+banner.offError(func);
 ```
 
 参数说明：
@@ -249,7 +249,7 @@ interstitialAd.show().then(
 函数：
 
 ```text
-interstitialAd.hide ()；
+interstitialAd.hide();
 ```
 
 ### 13、销毁插屏广告
@@ -259,7 +259,7 @@ interstitialAd.hide ()；
 函数：
 
 ```text
-interstitialAd.destroy ()；
+interstitialAd.destroy();
 ```
 
 ### 14、监听插屏广告加载成功事件
@@ -269,7 +269,7 @@ interstitialAd.destroy ()；
 函数：
 
 ```text
-interstitialAd.onLoad (func(param));
+interstitialAd.onLoad(func(param));
 ```
 
 方法说明：
@@ -298,7 +298,7 @@ adId,  // string 加载插屏成功的广告Id
 函数：
 
 ```text
-interstitialAd.onError (func(param));
+interstitialAd.onError(func(param));
 ```
 
 方法说明：
@@ -337,7 +337,7 @@ errorCode列表
 函数：
 
 ```text
-interstitialAd.offLoad (func);
+interstitialAd.offLoad(func);
 ```
 
 参数说明：
@@ -353,7 +353,7 @@ interstitialAd.offLoad (func);
 函数：
 
 ```text
-interstitialAd.offError (func);
+interstitialAd.offError(func);
 ```
 
 参数说明：
@@ -369,7 +369,7 @@ interstitialAd.offError (func);
 函数：
 
 ```text
-var videoAd=AdSDK.createRewardedVideoAd (adId，videoAdId, screenOrientation)
+var videoAd=AdSDK.createRewardedVideoAd(adId，videoAdId, screenOrientation);
 ```
 
 参数说明：
@@ -415,7 +415,7 @@ videoAd.show().then(
 函数：
 
 ```text
-videoAd.hide()；
+videoAd.hide();
 ```
 
 ### 21、销毁视频广告
@@ -425,7 +425,7 @@ videoAd.hide()；
 函数：
 
 ```text
-videoAd.destroy ()；
+videoAd.destroy();
 ```
 
 ### 22、监听视频广告加载成功事件
@@ -435,7 +435,7 @@ videoAd.destroy ()；
 函数：
 
 ```text
-videoAd.onLoad (func(param));
+videoAd.onLoad(func(param));
 ```
 
 方法说明：
@@ -464,7 +464,7 @@ adId,  // string 加载banner成功的广告Id
 函数：
 
 ```text
-videoAd.onError (func(param));
+videoAd.onError(func(param));
 ```
 
 方法说明：
@@ -503,7 +503,7 @@ errorCode列表
 函数：
 
 ```text
-videoAd.onClose (func);
+videoAd.onClose(func);
 ```
 
 参数说明：
@@ -519,7 +519,7 @@ videoAd.onClose (func);
 函数：
 
 ```text
-videoAd.offLoad (func);
+videoAd.offLoad(func);
 ```
 
 参数说明：
@@ -551,7 +551,7 @@ videoAd.offError(func);
 函数：
 
 ```text
-videoAd.offClose (func);
+videoAd.offClose(func);
 ```
 
 参数说明：
