@@ -6,8 +6,9 @@
 
 _**注意：调用初始化函数之前，请先注册相关回调函数，如`setOnInitCB（）、setOnPayCB()`等**_
 
-```text
 函数：
+
+```text
 GameSDK.init(gameId)
 ```
 
@@ -24,7 +25,7 @@ GameSDK.init(gameId)
 函数：
 
 ```text
-GameSDK.setOnInitCB( func )
+GameSDK.setOnInitCB(func)
 ```
 
 参数说明：
@@ -36,7 +37,7 @@ GameSDK.setOnInitCB( func )
 onInit函数说明：
 
 ```text
-function onInit( param )
+function onInit(param)
 ```
 
 | **参数** | **含义** | **类型** | **是否为空** | **备注** |
@@ -60,9 +61,10 @@ age // int 当前玩家年龄
 
 调用该函数后平台会立即结束游戏并关闭游戏窗口。
 
-```text
 函数：
-GameSDK.quit( reason )
+
+```text
+GameSDK.quit(reason)
 ```
 
 参数说明：
@@ -75,9 +77,10 @@ GameSDK.quit( reason )
 
 调用该函数可以设置游戏时的屏幕显示朝向。
 
-```text
 函数：
-GameSDK.setOrientation( orientation )
+
+```text
+GameSDK.setOrientation(orientation)
 ```
 
 参数说明：
@@ -90,9 +93,10 @@ GameSDK.setOrientation( orientation )
 
 调用该函数可以设置游戏时声音是否开启以及音量大小。
 
-```text
 函数：
-GameSDK.setAudio( enable, volume )
+
+```text
+GameSDK.setAudio(enable,volume)
 ```
 
 参数说明：
@@ -109,7 +113,7 @@ GameSDK.setAudio( enable, volume )
 函数：
 
 ```text
-GameSDK.setOnAudioCB( func )
+GameSDK.setOnAudioCB(func)
 ```
 
 参数说明：
@@ -121,7 +125,7 @@ GameSDK.setOnAudioCB( func )
 onAudio函数说明：
 
 ```text
-function onAudio( param )
+function onAudio(param)
 ```
 
 | **参数** | **含义** | **类型** | **是否为空** | **备注** |
@@ -148,7 +152,7 @@ SDK版本2开始，平台增加了统一的游戏加载进度界面，用于游�
 
 ```text
 函数：
-GameSDK. setLoadProgress (progress)
+GameSDK.setLoadProgress(progress)
 ```
 
 参数说明：
@@ -161,22 +165,17 @@ GameSDK. setLoadProgress (progress)
 
 用于关闭加载进度界面。此后玩家才可以和游戏交互。
 
-```text
 函数：
-GameSDK. hideLoadProgress ()
+
+```text
+GameSDK.hideLoadProgress()
 ```
-
-参数说明：
-
-| **参数** | **含义** | **类型** | **是否为空** | **备注** |
-| :--- | :--- | :--- | :--- | :--- |
-| 无 |  |  |  |  |
 
 ## 支付
 
 ```text
 函数：
-GameSDK.pay(orderId, goodsName, goodsDesc, orderAmount, extension, notifyURL)
+GameSDK.pay(orderId,goodsName,goodsDesc,orderAmount,extension,notifyURL)
 ```
 
 参数说明：
@@ -197,7 +196,7 @@ GameSDK.pay(orderId, goodsName, goodsDesc, orderAmount, extension, notifyURL)
 函数：
 
 ```text
-GameSDK.setOnPayCB( func )
+GameSDK.setOnPayCB(func)
 ```
 
 参数说明：
@@ -209,7 +208,7 @@ GameSDK.setOnPayCB( func )
 onPay函数说明：
 
 ```text
-function onPay( param )
+function onPay(param)
 ```
 
 | **参数** | **含义** | **类型** | **是否为空** | **备注** |
