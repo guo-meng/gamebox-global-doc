@@ -11,7 +11,9 @@
 <script type = "text/javascript" src="./AdSDK.js" ></script>
 ```
 
-#### 
+#### 方法二：
+
+直接引用线上JS文件，地址为：[https://cdn.gamebox.cocos.com/res/adSDK.sea.min.js](https://cdn.gamebox.cocos.com/res/adSDK.sea.min.js)
 
 
 
