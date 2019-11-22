@@ -376,7 +376,7 @@ var videoAd=AdSDK.createRewardedVideoAd(adId，videoAdId, screenOrientation);
 
 | **参数** | **含义** | **类型** | **是否为空** | **备注** |
 | :--- | :--- | :--- | :--- | :--- |
-| adId | 广告序号ID | String | 非空 | 标识广告 |
+| adId | 广告序号ID | String | 非空 | 开发者自定义的广告标识 |
 | videoAdId | 广告位ID | String | 非空 | 视频广告位ID，需申请 |
 | screenOrientation | 展示样式 | Int | 非空 | 1、横屏；2、竖屏 |
 
