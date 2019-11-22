@@ -10,6 +10,8 @@ description: 下载对应种类SDK压缩包，解压文件，获取AdSDK.js文�
 
 ## H5游戏
 
+#### 方法一：
+
 1. 下载广告接入SDK文件[**AdSDK.js**](../../../zi-yuan-xia-zai/sdk-xia-zai.md#h-5-you-xi-sdk20190402)。
 2. 游戏客户端需要在游戏中引用AdSDK.js文件。
 
@@ -18,6 +20,10 @@ description: 下载对应种类SDK压缩包，解压文件，获取AdSDK.js文�
 ```text
 <script type = "text/javascript" src="./AdSDK.js" ></script>
 ```
+
+#### 方法二：
+
+直接引用线上JS文件，地址为：[https://cdn.gamebox.cocos.com/res/adSDK.sea.min.js](https://cdn.gamebox.cocos.com/res/adSDK.sea.min.js)
 
 
 
