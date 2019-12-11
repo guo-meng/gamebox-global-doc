@@ -14,7 +14,7 @@ AdSDK.init();
 
 ### 2、创建横幅广告
 
-调用该函数创建横幅广告，单个banner横幅创建
+游戏调用该函数创建横幅广告，仅支持单个banner横幅创建
 
 函数：
 
@@ -34,8 +34,9 @@ var banner=AdSDK.createBannerAd(adId,bannerAdId,position);
 
 游戏调用该函数注册回调函数，当加载广告成功时平台会通知游戏，游戏收到该回调后，在调用展示操作。
 
-```text
 函数：
+
+```text
 banner.onLoad (func());
 ```
 
@@ -49,8 +50,9 @@ banner.onLoad (func());
 
 游戏调用该函数注册回调函数，当加载广告失败时函数会执行
 
-```text
 函数：
+
+```text
 banner.onError(func(param));
 ```
 
@@ -173,7 +175,7 @@ interstitialAd.onError(func(param));
 
 | 参数 | 含义 | 类型 | 是否为空 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
-| param | 广告加载成功 | Json对象 | 非空 | Json对象，见下文 |
+| param | 广告加载失败 | Json对象 | 非空 | Json对象，见下文 |
 
 ```text
 Param Json对象:
@@ -199,6 +201,8 @@ interstitialAd.show().then(function(){
       console.log('interstitialAd 广告显示失败')
 });
 ```
+
+奖励操作，可以在广告展示成功回调中执行。
 
 参数说明：
 
@@ -316,6 +320,8 @@ videoAd.show().then(function(){
 | :--- | :--- | :--- | :--- | :--- |
 | function\(\) | 展示广告成功回调 | function | 否 | 游戏自定义该方法 |
 | function\(err\) | 展示广告失败回调 | function | 否 | 游戏自定义该方法 |
+
+奖励操作，可以在广告展示成功回调中执行。
 
 ### 18、隐藏视频广告
 
