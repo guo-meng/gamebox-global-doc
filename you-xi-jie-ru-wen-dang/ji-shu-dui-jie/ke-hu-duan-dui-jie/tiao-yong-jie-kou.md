@@ -89,7 +89,7 @@ GameSDK.setOrientation(orientation)
 | :--- | :--- | :--- | :--- | :--- |
 | orientation | 朝向 | int | 非空 | 0、 横屏； 1、竖屏 |
 
-## 设置支付返回回调
+## 设置支付结果回调
 
 平台将支付成功与否通知给游戏，函数调用位置应在GameSDK.init\(\)函数前调用。
 
@@ -113,7 +113,7 @@ function onPay(param)
 
 | **参数** | **含义** | **类型** | **是否为空** | **备注** |
 | :--- | :--- | :--- | :--- | :--- |
-| param | 结束通知参数 | object | 非空 | Json对象，见下文 |
+| param | 支付参数 | object | 非空 | Json对象，见下文 |
 
 ```text
 Param Json对象:
@@ -215,6 +215,8 @@ onAudio函数说明：
 ```text
 function onAudio(param)
 ```
+
+参数说明:
 
 | **参数** | **含义** | **类型** | **是否为空** | **备注** |
 | :--- | :--- | :--- | :--- | :--- |

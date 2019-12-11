@@ -12,7 +12,5 @@ description: 下载对应种类SDK压缩包，解压文件，获取GameSDK.js文
 
 游戏客户端直接引用平台线上SDK地址即可，地址为：[https://cdn.gamebox.cocos.com/res/GameSDK.sea.min.js](https://cdn.gamebox.cocos.com/res/GameSDK.sea.min.js)
 
-游戏客户端直接引用平台线上SDK地址即可，地址为：[https://cdn.gamebox.cocos.com/res/GameSDK.sea.min.js](https://cdn.gamebox.cocos.com/res/GameSDK.sea.min.js)
-
 
 
