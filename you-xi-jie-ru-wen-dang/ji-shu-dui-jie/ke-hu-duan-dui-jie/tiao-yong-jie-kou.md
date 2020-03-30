@@ -150,7 +150,7 @@ GameSDK.pay(orderId,goodsName,goodsDesc,orderAmount,extension,notifyURL)
 | goodsDesc | 商品描述 | string | 非空 |  |
 | orderAmount | 商品价格 | int | 非空 | 以“分”为单位 |
 | extension | 透传数据 | string | 非空 | 透传发送到游戏服务器 |
-| notifyURL | 支付付款通知地址 | string | 非空 | 支付成功通知游戏服务器 |
+| notifyURL | 支付付款通知地址 | string | 非空 | 支付成功通知游戏服务器地址 |
 
 平台调用该函数之后，平台会将支付结果通知给游戏，函数调用位置应在GameSDK.init\(\)函数之后调用。
 
