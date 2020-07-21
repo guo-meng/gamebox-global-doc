@@ -1,6 +1,6 @@
 # 自测工具
 
-## [1.0.8 - 2019-12-10](https://chukong.oss-cn-qingdao.aliyuncs.com/res/Cocos_Game_Tools_sea_build191210.apk)
+## [1.0.12 - 2020-7-21](https://chukong.oss-cn-qingdao.aliyuncs.com/res/Cocos_Game_Tools_sea_v1.0.12.apk)
 
 ### Fixed
 
@@ -78,5 +78,7 @@
       </td>
     </tr>
   </tbody>
-</table>3、配置完成后点击保存，然后启动游戏，测试工具会根据配置的参数拉起游戏。
+</table>
+
+3、配置完成后点击保存，然后启动游戏，测试工具会根据配置的参数拉起游戏。
 
