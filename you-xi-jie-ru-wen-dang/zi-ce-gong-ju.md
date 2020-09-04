@@ -1,6 +1,6 @@
 # 自测工具
 
-## [1.0.13 - 2020-8-21](https://cdn.gamebox.cocos.com/res/Cocos_Game_Tools_sea_v1.0.13.apk)
+## [1.0.14 - 2020-9-4](https://cdn.gamebox.cocos.com/res/Cocos_Game_Tools_sea_v1.0.14.apk)
 
 ### Fixed
 
