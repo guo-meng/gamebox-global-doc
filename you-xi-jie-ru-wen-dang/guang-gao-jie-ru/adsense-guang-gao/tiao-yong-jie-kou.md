@@ -176,7 +176,7 @@ adSDK.onUserClose(callback);
 | :--- | :--- | :--- | :--- | :--- |
 | callback | 设置用户关闭广告时的回调 | Function | 可空 |  |
 
-#### 14、创建底部横幅广告
+#### ~~14、创建底部横幅广告~~
 
 调用该函数后平台会创建一个底部横幅广告。
 
@@ -188,7 +188,7 @@ AdSDK.createCoexistingTextAd();
 
 该函数回返回一个Promise，Promise resolve的返回值是一个广告实例 coexistingTextAd
 
-#### 15、展示底部横幅广告
+#### ~~15、展示底部横幅广告~~
 
 用返回的广告实例调用该函数后平台会将之前创建的底部横幅广告显示出来。
 
@@ -198,7 +198,7 @@ AdSDK.createCoexistingTextAd();
 coexistingTextAd.showCoexistingTextAd();
 ```
 
-#### 16、隐藏底部横幅广告
+#### ~~16、隐藏底部横幅广告~~
 
 用返回的广告实例调用该函数后平台会将之前创建的底部横幅广告隐藏。
 
@@ -208,7 +208,7 @@ coexistingTextAd.showCoexistingTextAd();
 coexistingTextAd.hideCoexistingTextAd();
 ```
 
-#### 17、销毁底部横幅广告
+#### ~~17、销毁底部横幅广告~~
 
 用返回的广告实例调用该函数后平台会将之前创建的底部横幅广告销毁。
 
@@ -220,7 +220,7 @@ coexistingTextAd.destroyCoexistingTextAd();
 
 建议每次监听到底部横幅广告关闭后都将其销毁，以便回收内存
 
-#### 18、监听底部横幅广告错误
+#### ~~18、监听底部横幅广告错误~~
 
 当拉取广告发生错误时会触发此函数里面的回调函数，开发者可通过此方法监听广告的错误并作出相应处理，
 
@@ -248,7 +248,7 @@ params参数信息
 | errorCode | 错误码 | Number | 非空 |  |
 | desc | 错误描叙 | String | 非空 |  |
 
-#### 19、监听底部横幅广告展示完毕
+#### ~~19、监听底部横幅广告展示完毕~~
 
 当广告完成时会触发此函数里面的回调函数（广告自动关闭）
 
@@ -262,7 +262,7 @@ coexistingTextAd.onComplete(callback);
 | :--- | :--- | :--- | :--- | :--- |
 | callback | 设置广告完成时的回调 | Function | 可空 |  |
 
-#### 20、监听底部横幅广告被主动关闭
+#### ~~20、监听底部横幅广告被主动关闭~~
 
 当用户关闭广告会触发此函数里面的回调函数：
 
