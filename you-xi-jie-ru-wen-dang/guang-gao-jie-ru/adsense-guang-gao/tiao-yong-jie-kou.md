@@ -75,6 +75,12 @@ adSDK.destroyTextAd();
 adSDK.createImageAd();
 ```
 
+**注意：如果是在游戏刚启动时调用该接口，请增加参数isStartingAd，该参数表示游戏在用户无交互的情况下调用图片广告，格式如下：**
+
+```text
+adSDK.createImageAd(isStartingAd);
+```
+
 该函数会返回一个Promise
 
 #### 7、展示图片广告
