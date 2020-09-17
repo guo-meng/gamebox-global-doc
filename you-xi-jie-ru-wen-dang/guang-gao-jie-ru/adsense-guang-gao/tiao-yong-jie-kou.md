@@ -81,6 +81,10 @@ adSDK.createImageAd();
 adSDK.createImageAd(isStartingAd);
 ```
 
+| **参数** | **类型** | **是否为空** |
+| :--- | :--- | :--- |
+| isStartingAd | Boolean | 可空 |
+
 该函数会返回一个Promise
 
 #### 7、展示图片广告
