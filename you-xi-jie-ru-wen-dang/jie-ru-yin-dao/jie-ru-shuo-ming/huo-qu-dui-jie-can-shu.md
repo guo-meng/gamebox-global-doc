@@ -6,9 +6,9 @@
 
 2、提交公司相关资质。
 
-3、公司资质审核通过后，创建游戏。
+3、公司资质审核通过后，创建游戏并查看接入参数
 
-4、游戏审核通过后，点击查看获取技术对接参数。
+![](../../../.gitbook/assets/1606208671395.jpg)
 
-![](https://github.com/guo-meng/gamebox-global-doc/tree/1d64fde0089a5a5c69bfbb96788c7d7c66ce64ef/.gitbook/assets/5-dui-jie-can-shu-xiang-qing.jpg)
+
 
